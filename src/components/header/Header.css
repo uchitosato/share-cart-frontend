@@ -1,7 +1,9 @@
 .App-header {
+  width: 100%;
   display: flex;
   background-color: #0a2546;
   color: white;
   align-items: center;
   justify-content: center;
+  position: relative;
 }

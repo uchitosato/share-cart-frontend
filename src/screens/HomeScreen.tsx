@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Header from '../components/Header'
+import Header from '../components/header/Header'
 import Footer from '../components/Footer'
 import CartItems from '../components/CartItems'
 import CartTotal from '../components/CartTotal'
