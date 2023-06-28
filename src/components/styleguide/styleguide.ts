@@ -190,11 +190,12 @@ export const Button = styled.button`
 `;
 
 export const ButtonPrimary = styled(Button)`
-  background: ${colors.primaryBlue};
-  
+  background: ${colors.primaryGreen};
+  font-family: "Poppins";
+  border: none;
   &:hover {
     transition: all 0.25s ease;
-    background-color: ${colors.darkBlue};
+    background-color: ${colors.primaryBlue};
     cursor: pointer;
   }
   &:disabled {
