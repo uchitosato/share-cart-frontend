@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 
 import Header from '../components/header/Header'
-import Footer from '../components/Footer'
+import Footer from '../components/footer/Footer'
 import CartItems from '../components/CartItems'
 import CartTotal from '../components/CartTotal'
 import '../App.css'
 import { ProductType } from '../types'
 import { itemsFixPrice, mockedData } from '../utils'
 
-export const HomeScreen = () => {
+export const CartingPage = () => {
 	const [cartItems, setCartItems] = useState<ProductType[]>(mockedData)
 	const [fixedPrice, setFixedPrice] = useState(itemsFixPrice)
 
@@ -28,4 +28,4 @@ export const HomeScreen = () => {
 	)
 }
 
-export default HomeScreen
+export default CartingPage;

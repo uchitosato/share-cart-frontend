@@ -1,15 +1,15 @@
 import React from "react";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./screens/HomePage";
-import HomeScreen from "./screens/HomeScreen";
+import HomePage from "./pages/HomePage";
+import CartingPage from "./pages/CartingPage";
 
 const App = () => {
 	return (
 		<BrowserRouter>
 			<Routes>
 				<Route index element={<HomePage />} />
-	      <Route path="homescreen" element={<HomeScreen />} />
+	      <Route path="making-cart" element={<CartingPage />} />
 			</Routes>
 		</BrowserRouter>
 	);
